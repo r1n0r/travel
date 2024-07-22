@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet "type="text/css" href="css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/frenstyle" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/copenhagen-grotesk" rel="stylesheet">
+    <meta charset="utf-8" />
+    <title>TravelWay</title>
+</head>
+<body>
+    <section id="section_1">
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="#section_1">Home</a></li>
+                    <li> <a href="#section_4">Destinations</a></li>
+                    <li> <a href="#section_3">About Us</a></li>
+                    <li> <a href="#footer">Contact Us</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+                <h3>Welcome to <img src="images/logo.png" width="18%" height="18%"></h3>
+                <h1>
+                    <div class="trip">Choose the trip,<br></div>
+                    We'll make it possible.
+                </h1>
+        <button id="btn_1">BOOK NOW</button>
+    </section>
+    <section id="section_2">
+        <h1>Explore the best tour packages</h1>
+        <h3>Find and book the best tour package</h3>
+        <div class="container">
+            <div class="tour_packages"> 
+                <img src="images/bali.jpg" alt="Bali"> 
+                <div class="details"> <h2>Bali: Live Your Story</h2> <p>4 Days &#x2022; Bali, Indonesia</p> 
+                    <p class="price">USD 85/person</p><button class="book-now">Book Now</button> 
+                </div> 
+            </div>
+          
+            <div class="tour_packages">
+                <img src="images/barca.jpeg" alt="Barcelona">
+                <div class="details">
+                    <h2>Barcelona Heritage Tour</h2>
+                    <p>3 Days &#x2022; Barcelona, Spain</p>
+                    <p class="price">USD 70/person</p>
+                    <button class="book-now">Book Now</button>
+                </div>
+            </div>
+            <div class="tour_packages">
+                <img src="images/newyork.jpg" alt="New York">
+                <div class="details">
+                    <h2>New York: City That Never Sleeps</h2>
+                    <p>9 Days &#x2022; New York, United States</p>
+                    <p class="price">USD 575/person</p>
+                    <button class="book-now">Book Now</button>
+                </div>
+            </div>
+            <div class="tour_packages">
+                <img src="images/rio.jpg" alt="Rio de Janeiro">
+                <div class="details">
+                    <h2>Traveling Across Rio</h2>
+                    <p>6 Days &#x2022; Rio de Janeiro, Brazil</p>
+                    <p class="price">USD 290/person</p>
+                    <button class="book-now">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="overlay" id="formOverlay">
+        <div class="form-container">
+            <h2>Book Your Trip</h2>
+            <form id="bookingForm">
+                <label for="fullName">Full Name:</label><br>
+                <input type="text" id="fullName" name="fullName" required><br><br>
+               
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+               
+                <label for="phoneNumber">Phone Number:</label><br>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required><br><br>
+               
+                <label for="departureDate">Departure Date:</label><br>
+                <input type="date" id="departureDate" name="departureDate" required><br><br>
+               
+                <label for="additionalInfo">Additional Information:</label><br>
+                <textarea id="additionalInfo" name="additionalInfo" rows="4" cols="50"></textarea><br><br>
+               
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Message container at the top -->
+    <div id="messageContainer" class="message-container"></div>
+    <section id="section_3">
+<div class="about_us">
+    <div class="abt_us">
+        <h1 id="about_us">About Us</h1>
+        <h2>Explore All Tours Of The <br> World With Us</h2>
+        <p>At TravelWay, we are passionate about creating unforgettable travel experiences that cater 
+            to the unique desires of every adventurer. Founded on a love for exploration and a commitment 
+            to excellence, our travel agency has become a trusted partner for discerning travelers seeking 
+            extraordinary journeys around the globe.
+        </p>
+        <h3>Tour Guide</h3>
+        <p>Our tour guides at TravelWay are the heart and soul of our travel experiences.
+             They are passionate, knowledgeable, and dedicated to making every trip unforgettable.</p>
+        <h3>Friendly Price</h3>
+        <p>At TravelWay, we believe that extraordinary travel experiences should be accessible to everyone.
+             That's why we offer friendly prices that cater to a variety of budgets without compromising on quality.</p>
+        <h3>Reliable Tour</h3>
+        <p>At TravelWay, we make sure our tours are always reliable.
+             We carefully plan every part of your trip to ensure everything goes smoothly and you can relax and enjoy your vacation.</p>
+    </div>
+    <div class="abt_us_photo">
+        <img src="images/about_us.png" alt="About Us" height="800px" width="800px">
+    </div>   
+</div>
+    </section>
+    <section id="section_4">
+        <h1>Popular Destinations</h1>
+        
+    <div class="grid_1">
+        <div class="grid_photos">
+            <a href="../travel/newyork.html"><img src="images/newyork1.jpg" alt="New York"></a>
+            <span>New York</span>
+        </div>
+        <div class="grid_photos">
+            <a href="../travel/rome.html"><img src="images/rome.jpg" alt="Rome"></a>
+            <span>Rome</span>
+        </div>
+        <div class="grid_photos">
+            <a href="../travel/istanbul.html"><img src="images/istanbul.jpg" alt="Istanbul"></a>
+            <span>Istanbul</span>
+        </div>
+    </div>
+    <div class="grid_2">
+        <div class="grid_photos">
+            <a href="../travel/borabora.html"><img src="images/borabora.jpg" alt="Bora Bora"></a>
+            <span>Bora Bora</span>
+        </div>
+        <div class="grid_photos">
+            <a href="../travel/dubai.html"><img src="images/dubai1.jpg" alt="Dubai"></a>
+            <span>Dubai</span>
+        </div>
+        <div class="grid_photos">
+            <a href="../travel/seychelles.html"><img src="images/seychelles.jpg" alt="Seychelles"></a>
+            <span>Seychelles</span>
+        </div>
+    </div>
+    </section>
+    <section id="section_5">
+    <div class="plan_trip">
+        <h1>Start Planning Your Trip Now <div class="price">And Get 20% Off</div></h1>
+        <p>Book now and save big on your dream vacation.<br>Whether you're looking to relax on a sunny beach, explore vibrant cities,<br> 
+            or embark on a thrilling adventure, we've got the perfect trip for you.</p>
+        <button id="btn_2">BOOK NOW</button>
+    </div>
+    </section>
+    <section id="section_6">
+        <div class="memories">
+            <div class="memories_photo">
+                <img src="images/enjoy.jpg" alt="" width="500px" height="500px">
+            </div>
+            <div class="memories_txt">
+                <h1>Travel To Make Memories <br> All Around The World</h1>
+                <p>At TravelWay, we believe that the best part of traveling is the memories you create along the way. 
+                    Our travel agency is dedicated to crafting experiences that leave lasting impressions.</p>
+                    <div class="email">
+                        <form class="email_form">
+                        <input type="email" placeholder="Enter Your Email Address" required>
+                        <button type="submit">
+                            <span>&#8594;</span>
+                        </button>
+                    </div>
+                    
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer_container">
+            <div class="footer_column">
+                <img src="images/logo.png" width="50%" height="10%">
+                <p class="footer_description">
+                    Our mission is simple: to turn your travel dreams into reality. Whether you long to relax on pristine beaches, 
+                    immerse yourself in vibrant cultures, embark on thrilling adventures,
+                     or enjoy luxurious escapes, our team of seasoned travel consultants is here to design the perfect itinerary for you.
+                </p>
+                <div class="social_media">
+                    <h3>Follow Us On:</h3>
+                    <div class="social_icons">
+                        <a href="https://www.instagram.com/travelway.mk/"><img src="images/insta.png" alt="Instagram"></a>
+                        <a href="https://www.facebook.com/profile.php?id=61560974535519"><img src="images/facebook.png" alt="Facebook"></a>
+                        <a href="https://x.com/?lang=en"><img src="images/x1.png" alt="X"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_column">
+                <h3>Quick Link</h3>
+                <ul>
+                    <li><a href="#section_3">About Us</a></li>
+                    <li><a href="#section_2">Tour Packages</a></li>
+                    <li><a href="#section_4">Destinations</a></li>
+                    <li><a href="#section_5">Offers</a></li>
+                    <li><a href="#section_6">Booking Process</a></li>
+                </ul>
+            </div>
+           
+            <div class="footer_column">
+                <h3>Gallery</h3>
+                <div class="gallery">
+                    <img src="images/paris.jpg" alt="Paris">
+                    <img src="images/cali.jpg" alt="California">
+                    <img src="images/egypt.jpg" alt="Egypt">
+                    <img src="images/kaaba.jpg" alt="Makkah">
+                    <img src="images/pamukkale.jpg" alt="Pamukkale">
+                    <img src="images/machu_picchu.jpg" alt="Peru">
+                </div>
+            </div>
+        </div>
+        <div class="footer_contact">
+            <h1>Contact Us:</h1>
+            <p><img src="images/phone.png" height="30px" width="30px" alt="Phone">+389 70 648 246</p>
+            <p><img src="images/mail.png" height="30px" width="30px" alt="Email">rinorambari@gmail.com</p>
+            <p><img src="images/location.png" height="30px" width="30px" alt="Location">Debar, North Macedonia</p>
+        </div>
+    </footer>    
+    <script src="home.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</body>
+</html>

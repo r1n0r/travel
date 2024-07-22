@@ -1,0 +1,1285 @@
+﻿html {
+        scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+#section_1 {
+    background-image: url(../images/newyork2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+nav ul {
+    text-align: center;
+    margin:0 500px;
+    padding: 0;
+    border-bottom: 1px solid white;
+}
+    nav ul li {
+        display:inline-flex;
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+}
+
+nav ul li a:hover {
+    color: transparent;
+    -webkit-text-stroke-width: 0.2px;   
+    -webkit-text-stroke-color: white;
+    transition: 0.5s;
+}
+#section_1 h1 {
+    
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+    margin-left:400px;
+    font-family: 'Frenstyle', sans-serif; 
+    transform: translateY(100px);
+}
+#section_1 img{
+    transform: translateY(2px);
+}
+.trip{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;   
+    -webkit-text-stroke-color: white;
+}
+#section_1 h3 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+    margin-left: 405px;
+    transform: translateY(130px);
+}
+#btn_1 {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 15px;
+    color:white;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    margin-bottom: 25px;
+    transition: 0.5s;
+    margin-left: 405px;
+    transform: translateY(50px);
+    border-radius: 10px;
+}
+    #btn_1:hover {
+        border:1px solid white;
+        background-color: white;
+        color: rgb(4, 4, 54);
+    }
+    
+    #section_2 h1{
+        font-size: 40px;
+        margin-left: 110px;
+        font-family: 'Frenstyle', sans-serif; 
+        font-weight: 100;
+    }
+    #section_2 h3{
+        margin-left: 110px;
+        font-family: 'Copenhagen Grotesk', sans-serif;
+        font-weight: 500;
+        transform: translateY(-20px);
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+    .tour_packages {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 15px;
+        max-width: 300px;
+        overflow: hidden;
+        text-align: center;
+        transition: transform 0.5s;
+    }
+    .tour_packages:hover {
+        transform: translateY(-15px);
+    }
+    .tour_packages img {
+        width: 100%;
+        height: auto;
+    }
+    .tour_packages .details {
+        padding: 15px;
+    }
+    .tour_packages .details h2 {
+        font-size: 20px;
+        margin: 10px 0;
+        font-family: 'Copenhagen Grotesk', sans-serif;
+    }
+    .tour_packages .details p {
+        color: #888;
+        font-size: 14px;
+        margin: 5px 0;
+        font-family: 'Copenhagen Grotesk', sans-serif;
+    }
+    .tour_packages .details .price {
+        color: #333;
+        font-size: 18px;
+        margin: 10px 0;
+        font-family: 'Copenhagen Grotesk', sans-serif;
+        font-weight: 100;
+    }
+    .tour_packages .details button {
+        background-color: #ff6600;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        transition: background-color 0.5s;
+        font-family: 'Copenhagen Grotesk', sans-serif;
+        margin-top: 10px;
+    }
+    .tour_packages .details button a{
+        text-decoration: none;
+        color: white;
+    }
+    .tour_packages .details button:hover {
+        background-color: orangered;
+    }
+.about_us {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#about_us {
+    color: #ff6600;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+    transform: translateY(20px);
+}
+
+.abt_us {
+    flex: 1;
+    min-width: 300px;
+    margin-left: 100px;
+    transform: translateY(50px);
+}
+
+.abt_us h3 {
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+}
+
+.abt_us p {
+    color: gray;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    transform: translateY(-20px);
+}
+
+.abt_us h2 {
+    font-size: 50px;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+}
+
+.abt_us_photo {
+    flex: 1;
+    min-width: 300px;
+    transform: translateY(20px);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .abt_us {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .abt_us {
+        margin-left: 20px;
+    }
+
+    .abt_us_photo {
+        margin-top: 20px;
+    }
+
+    .about_us {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .abt_us {
+        margin-left: 0;
+        transform: translateY(50px);
+    }
+
+    .abt_us h2 {
+        font-size: 40px;
+    }
+
+    .abt_us p,
+    .abt_us h3 {
+        transform: translateY(0);
+    }
+
+    .abt_us_photo {
+        transform: translateY(0);
+    }
+}
+
+#section_4 h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+    margin-top:60px ;
+}
+
+.grid_1 {
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+.grid_2 {
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-gap: 20px;
+    padding: 0px 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+.grid_photos {
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.grid_photos:hover{
+    transform: translateY(-15px);  
+}
+.grid_photos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+} 
+.grid_photos span {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+}
+
+#section_5{
+    background-image: url(../images/santorini.jpg);
+    background-size: cover;
+    padding-bottom: 300px;
+}   
+
+#section_5 h1{
+    font-size: 45px;
+    color: white;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+}
+#section_5 p{
+    color: white;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+    transform: translateY(-25px);
+}
+.price{
+    color: #ff6600;
+}
+.plan_trip{
+    margin-left: 150px;
+    transform: translateY(75px); 
+}
+#btn_2{
+    background-color: #ff6600;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.5s;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+    transform: translateY(-15px);
+}
+#btn_2:hover{
+    background-color: orangered;
+}
+
+#section_6{
+    padding-bottom: 200px;
+}
+.memories{
+    display: flex;
+}
+.memories img {
+    border-radius: 20px;
+    margin-left: 150px;
+    transform: translateY(130px);
+}
+.memories_txt{
+    transform: translateY(200px);
+    margin-left: 200px;
+}
+.memories_txt h1{
+    font-size: 40px;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+}
+.memories_txt p{
+    color: grey;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+}
+
+.email{
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+}
+.email_form {
+    display: flex;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.email_form input {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    color: grey;
+    font-size: 20px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+}
+.email_form input::placeholder {
+    color: lightgray;
+}
+
+.email_form button {
+    background-color: #ff6600;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+.email_form button:hover{
+    color: orangered;
+}
+.email_form button span {
+    font-size: 30px;
+    color: white;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer_description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+}
+
+.social_media {
+    margin-top: 20px;
+}
+
+.social_icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.social_icons img:hover{
+    transform: translateY(-10px);
+}
+
+.footer_column h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+}
+
+.footer_column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_column ul li {
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.footer_column ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+}
+
+.footer_column ul li a:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.footer_contact {
+    border-top: 0.5px solid white;
+    padding: 20px 0;
+    margin: 0 120px;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_contact p {
+    margin: 5px 0;
+    font-size: 20px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+}
+.footer_contact h1 {
+    margin: 5px 0;
+    font-size: 20px;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+}
+.footer_contact img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+main {
+    padding: 2rem;
+    width: 80%;
+    max-width: 800px;
+}
+
+#search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#search-form input, #search-form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#search-form button {
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+}
+
+#results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.result p {
+    margin: 0.5rem 0;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.overlay.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    animation: slideIn 0.3s ease-in-out;
+    max-width: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.form-container.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+}
+
+.form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="date"],
+.form-container textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container input[type="tel"]:focus,
+.form-container input[type="date"]:focus,
+.form-container textarea:focus {
+    border-color: #ff6600;
+}
+
+.form-container textarea {
+    height: 100px;
+}
+
+.form-container button[type="submit"] {
+    background-color: #ff6600;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: orangered;
+}
+
+.form-container button[type="submit"]:focus {
+    outline: none;
+}
+
+.message-container {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1002;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.success-message {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    animation: fadeInOut 5s ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+
+
+#section_ny1{
+    background-image: url(../images/newyork4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+}
+#section_ny1 h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Coco Gothic', sans-serif;
+    letter-spacing: 10px;
+    transform: translateY(200px);
+}
+#section_ny1 h1{
+    font-size: 130px;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    transform: translateY(120px);
+}
+#section_ny1 h2{
+    font-size: 50px;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translateY(-20px);
+}
+#section_ny1 button{
+    font-size: 20px;
+    font-family: 'Noto Serif JP', sans-serif;
+    color: rgb(56, 7, 56);
+    background-color: white;
+    border: 2px solid  white ;
+    padding: 10px 45px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#section_ny1 button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white ;
+}
+#section_ny2{
+    background-color: #F4F1ED;
+}
+.about_ny{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about_ny_txt h1{
+    font-size: 50px;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+    color: rgb(56, 7, 56); 
+}
+.about_ny_txt h2{
+    font-size: 18px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 400;
+    color: rgb(141, 122, 141); 
+    transform: translateY(-40px);
+}
+.about_ny_txt h3{
+    font-size: 20px;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+    color: rgb(56, 7, 56);
+    transform: translateY(-40px);
+}
+.about_ny_txt p{
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    color: rgb(141, 122, 141); 
+    transform: translateY(-55px);
+}
+.about_ny_photo img{
+    transform: translateY(60px);
+    border-radius: 20px;
+}
+#section_ny3{
+    padding-bottom: 50px;
+}
+#section_ny3 h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+}
+.grid_ny {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0px 20px;
+    width: 80%;
+    margin-left: 9%;
+}
+.grid_photos_ny {
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.grid_photos_ny:hover{
+    transform: translateY(-15px);  
+}
+.grid_photos_ny img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+} 
+.grid_photos_ny span {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+}
+#section_ny4{
+    background-image: url(../images/newyork6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+#section_ny4 h1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translateY(100px);
+    margin-left: 100px;
+}
+#section_ny4 p{
+    font-size: 20px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+    color: white;
+    margin-left:100px ;
+    transform: translateY(30px);
+}
+.percent{
+    color: transparent;
+    -webkit-text-stroke-width: 2px;   
+    -webkit-text-stroke-color: white;
+}
+
+
+#section_r1{
+    background-image: url(../images/rome1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+}
+#section_r1 h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Coco Gothic', sans-serif;
+    letter-spacing: 10px;
+    transform: translateY(200px);
+}
+#section_r1 h1{
+    font-size: 130px;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    transform: translateY(120px);
+}
+#section_r1 h2{
+    font-size: 50px;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translateY(-20px);
+}
+#section_r1 button{
+    font-size: 20px;
+    font-family: 'Noto Serif JP', sans-serif;
+    color: rgb(56, 7, 56);
+    background-color: white;
+    border: 2px solid  white ;
+    padding: 10px 45px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#section_r1 button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white ;
+}
+.about_r{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about_r_txt h1{
+    font-size: 50px;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+    color: rgb(56, 7, 56); 
+}
+.about_r_txt h2{
+    font-size: 18px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 400;
+    color: rgb(150, 150, 150);
+    transform: translateY(-40px);
+}
+.about_r_txt h3{
+    font-size: 20px;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+    color: black;
+    transform: translateY(-40px);
+}
+.about_r_txt p{
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    color: rgb(150, 150, 150);
+    transform: translateY(-55px);
+}
+.about_r_photo img{
+    transform: translateY(60px);
+    border-radius: 20px;
+}
+#section_r3{
+    padding-bottom: 50px;
+}
+#section_r3 h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+}
+.grid_r {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0px 20px;
+    width: 80%;
+    margin-left: 9%;
+}
+.grid_photos_r {
+    position: relative;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.grid_photos_r:hover{
+    transform: translateY(-15px);  
+}
+.grid_photos_r img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+} 
+.grid_photos_r span {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+}
+#section_r4{
+    background-image: url(../images/rome3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+#section_r4 h1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translateY(100px);
+    margin-left: 100px;
+}
+#section_r4 p{
+    font-size: 20px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+    color: white;
+    margin-left:100px ;
+    transform: translateY(30px);
+}
+.percent_r{
+    color: transparent;
+    -webkit-text-stroke-width: 2px;   
+    -webkit-text-stroke-color: white;
+}
+#section_i1{
+    background-image: url(../images/istanbul1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+}
+#section_i1 h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Coco Gothic', sans-serif;
+    letter-spacing: 10px;
+    transform: translateY(200px);
+}
+#section_i1 h1{
+    font-size: 130px;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    transform: translateY(120px);
+}
+#section_i1 h2{
+    font-size: 50px;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translateY(-20px);
+}
+#section_i1 button{
+    font-size: 20px;
+    font-family: 'Noto Serif JP', sans-serif;
+    color: rgb(56, 7, 56);
+    background-color: white;
+    border: 2px solid  white ;
+    padding: 10px 45px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#section_i1 button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white ;
+}
+#section_i4{
+    background-image: url(../images/bridge1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+#section_i4 h1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translateY(100px);
+    margin-left: 100px;
+}
+#section_i4 p{
+    font-size: 20px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+    color: white;
+    margin-left:100px ;
+    transform: translateY(30px);
+}
+
+
+#section_b1{
+    background-image: url(../images/borabora1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+}
+#section_b1 h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Coco Gothic', sans-serif;
+    letter-spacing: 10px;
+    transform: translateY(200px);
+}
+#section_b1 h1{
+    font-size: 130px;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    transform: translateY(120px);
+}
+#section_b1 h2{
+    font-size: 50px;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translateY(-20px);
+}
+#section_b1 button{
+    font-size: 20px;
+    font-family: 'Noto Serif JP', sans-serif;
+    color: rgb(56, 7, 56);
+    background-color: white;
+    border: 2px solid  white ;
+    padding: 10px 45px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#section_b1 button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white ;
+}
+#section_b4{
+    background-image: url(../images/borabora3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+#section_b4 h1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translateY(100px);
+    margin-left: 100px;
+}
+#section_b4 p{
+    font-size: 20px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+    color: white;
+    margin-left:100px ;
+    transform: translateY(30px);
+}
+
+
+#section_d1{
+    background-image: url(../images/dubai2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+}
+#section_d1 h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Coco Gothic', sans-serif;
+    letter-spacing: 10px;
+    transform: translateY(200px);
+}
+#section_d1 h1{
+    font-size: 130px;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    transform: translateY(120px);
+}
+#section_d1 h2{
+    font-size: 50px;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translateY(-20px);
+}
+#section_d1 button{
+    font-size: 20px;
+    font-family: 'Noto Serif JP', sans-serif;
+    color: rgb(56, 7, 56);
+    background-color: white;
+    border: 2px solid  white ;
+    padding: 10px 45px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#section_d1 button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white ;
+}
+#section_d4{
+    background-image: url(../images/dubai4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+#section_d4 h1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translateY(100px);
+    margin-left: 100px;
+}
+#section_d4 p{
+    font-size: 20px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+    color: white;
+    margin-left:100px ;
+    transform: translateY(30px);
+}
+#section_s1{
+    background-image: url(../images/seychelles1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+}
+#section_s1 h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Coco Gothic', sans-serif;
+    letter-spacing: 10px;
+    transform: translateY(200px);
+}
+#section_s1 h1{
+    font-size: 130px;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    transform: translateY(120px);
+}
+#section_s1 h2{
+    font-size: 50px;
+    color: white;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translateY(-10px);
+}
+#section_s1 button{
+    font-size: 20px;
+    font-family: 'Noto Serif JP', sans-serif;
+    color: rgb(56, 7, 56);
+    background-color: white;
+    border: 2px solid  white ;
+    padding: 10px 45px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#section_s1 button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white ;
+}
+#section_s4{
+    background-image: url(../images/seychelles3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+#section_s4 h1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Frenstyle', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translateY(100px);
+    margin-left: 100px;
+}
+#section_s4 p{
+    font-size: 20px;
+    font-family: 'Copenhagen Grotesk', sans-serif;
+    font-weight: 100;
+    color: white;
+    margin-left:100px ;
+    transform: translateY(30px);
+}
